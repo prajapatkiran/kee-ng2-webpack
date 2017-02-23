@@ -6,7 +6,11 @@ import { Component, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None,
   template: `
     <div>
-        <kee-hw-app></kee-hw-app>
+    <nav>
+      <a routerLink="" routerLinkActive="active">Home</a>
+      <a routerLink="kee-hw-app" routerLinkActive="active">Kee Hello World App</a>
+    </nav>
+    <router-outlet></router-outlet>
     </div>
   `
 })

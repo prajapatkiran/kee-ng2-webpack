@@ -29,12 +29,8 @@
             "node_modules/@types"
         ],
         "types": [
-            "hammerjs",
             "jasmine",
-            "node",
-            "source-map",
-            "uglify-js",
-            "webpack"
+            "node"
         ]
     },
     "files": [

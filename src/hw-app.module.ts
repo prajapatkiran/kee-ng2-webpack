@@ -18,12 +18,6 @@ import { HwAppRoutingModule } from './hw-app.routing.module';
     HelloWorldComponent,
     HelloWorldSubComponent,
     AbcdComponent
-  ],
-  exports: [
-    HwAppComponent,
-    HelloWorldComponent,
-    HelloWorldSubComponent,
-    AbcdComponent
   ]
 })
 export class HwAppModule { }
