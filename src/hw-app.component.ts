@@ -10,7 +10,9 @@ import { Component, OnInit } from '@angular/core';
     <a routerLink="/kee-hw-app/hello-world" routerLinkActive="active">Kee Hello World Route!</a>
   </nav>
   <nav>
-    <a routerLink="/kee-hw-app/hello-world-sub" routerLinkActive="active">Kee Hello World -:Sub:- Route!</a>
+    <a routerLink="/kee-hw-app/hello-world-sub" routerLinkActive="active">
+      Kee Hello World -:Sub:- Route!
+    </a>
   </nav>
   <router-outlet></router-outlet>`,
   styles: []

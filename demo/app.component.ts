@@ -6,7 +6,6 @@ import { Component, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None,
   template: `
     <div>
-      <content>
         <kee-hw-app></kee-hw-app>
     </div>
   `

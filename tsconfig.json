@@ -7,7 +7,7 @@
         "declarationDir": "release",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "importHelpers": true,
+        // "importHelpers": true,
         "lib": ["es6", "dom"],
         "module": "commonjs",
         "moduleResolution": "node",
