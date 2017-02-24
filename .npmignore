@@ -16,3 +16,4 @@ yarn.lock
 
 **/*.spec.*
 **/*.ngFactory.ts
+**/*.ngsummary.json
