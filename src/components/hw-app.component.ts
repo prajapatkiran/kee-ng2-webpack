@@ -15,7 +15,7 @@ import { Component, OnInit } from '@angular/core';
     </a>
   </nav>
   <router-outlet></router-outlet>`,
-  styles: []
+  styleUrls: ['./hw-app.component.scss']
 })
 export class HwAppComponent implements OnInit {
 

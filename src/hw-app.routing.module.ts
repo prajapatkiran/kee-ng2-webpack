@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { HwAppComponent } from './hw-app.component';
-import { HelloWorldComponent } from './hello-world/hello-world.component';
-import { HelloWorldSubComponent } from './hello-world/hello-world-sub/hello-world-sub.component';
+import { HwAppComponent } from './components/hw-app.component';
+import { HelloWorldComponent } from './components/hello-world/hello-world.component';
+import { HelloWorldSubComponent } from
+  './components/hello-world/hello-world-sub/hello-world-sub.component';
 
 @NgModule({
   imports: [RouterModule.forChild([

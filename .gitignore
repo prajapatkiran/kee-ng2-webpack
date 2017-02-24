@@ -70,3 +70,8 @@ dll/
 *.css.shim.ts
 *.ngsummary.json
 *.shim.ngstyle.ts
+*.metadata.json
+
+*.js.map
+/src/**/*.js.map
+/src/**/*.js
