@@ -1,6 +1,6 @@
 {
   "name": "kee-ng2-webpack",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "An Angular 2 Webpack Starter project",
   "main": "release/index.js",
   "typings": "release/index.d.ts",
