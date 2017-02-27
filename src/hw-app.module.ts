@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { HttpModule } from '@angular/http';
 
 import { HwAppComponent } from './components/hw-app.component';
 import { HelloWorldComponent } from './components/hello-world/hello-world.component';
@@ -12,7 +13,8 @@ import { HwAppRoutingModule } from './hw-app.routing.module';
 @NgModule({
   imports: [
     CommonModule,
-    HwAppRoutingModule
+    HwAppRoutingModule,
+    HttpModule
   ],
   declarations: [
     HwAppComponent,

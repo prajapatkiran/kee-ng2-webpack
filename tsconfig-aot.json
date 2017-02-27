@@ -11,10 +11,10 @@
         "outDir": "release"
     },
     "angularCompilerOptions": {
-        "genDir": "compiled"
+        "genDir": "compiled",
+        "debug": true
     },
     "files": [
-        "src/declarations.d.ts",
         "src/index.ts"
     ],
     "exclude": [
